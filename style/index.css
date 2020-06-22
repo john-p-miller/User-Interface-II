@@ -75,15 +75,7 @@ h1{
   justify-content: center;
 }
 
-.home{
-  border: 1px solid black;
-  color:white;
-  padding: 5px 15px;
-  border-radius: 5px;
-  text-decoration: none;
-  background-color:black;
-}
-.about{
+.navbutton{
   border: 1px solid black;
   color:black;
   padding: 5px 15px;
@@ -91,25 +83,22 @@ h1{
   text-decoration: none;
   background-color:whitesmoke;
 }
-.about:hover{
+.selected{
+    background-color: black;
+    color:white;
+}
+
+
+.navbutton:hover{
   text-decoration: underline;
 }
-.projects{
-  border: 1px solid black;
-  color:black;
-  padding: 5px 15px;
-  border-radius: 5px;
-  text-decoration: none;
-  background-color:whitesmoke;
+
+
+.button {
+    display:inline-block;
 }
-.contact{
-  border: 1px solid black;
-  color:black;
-  padding: 5px 15px;
-  border-radius: 5px;
-  text-decoration: none;
-  background-color:whitesmoke;
-}
+
+
 .pic {
   width: 100%;
   margin-top: 20px;
@@ -145,4 +134,9 @@ footer .footer{
   text-decoration: none;
   background-color:black;
   margin-top: 25px;
+}
+
+div {margin: 1em;
+    box-sizing: border-box;
+
 }
