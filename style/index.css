@@ -110,10 +110,14 @@ h1{
   text-decoration: none;
   background-color:whitesmoke;
 }
-.pic img{
-  max-width: 100%;
+.pic {
+  width: 100%;
   margin-top: 20px;
   border-radius: 20px;
+  background-image: url("https://images.unsplash.com/photo-1592485316742-bb9b957303b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  height: 20em;
+  background-repeat: no-repeat;
+    background-size: cover;
 }
 .bottom img{
 max-width:90%;
