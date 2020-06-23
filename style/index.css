@@ -142,3 +142,12 @@ div {
     box-sizing: border-box;
 
 }
+
+@media screen and (max-width: 800px) {
+
+    .nav {
+        flex-direction: column;
+        width:250px;
+        margin:auto;
+    }
+  }
