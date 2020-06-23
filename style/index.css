@@ -100,6 +100,7 @@ h1{
 
 
 .pic {
+  background-position: center;
   width: 100%;
   margin-top: 20px;
   border-radius: 20px;
@@ -136,7 +137,8 @@ footer .footer{
   margin-top: 25px;
 }
 
-div {margin: 1em;
+div {
+    padding: 1em;
     box-sizing: border-box;
 
 }
